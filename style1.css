@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.image-section {
+    flex: 1.25;
+    background-image: url(images/ChatGPT\ Image\ Dec\ 15\,\ 2025\,\ 11_33_03\ PM.png);
+    background-size: cover;
+    background-position: center;
+}
+.majorcontent{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+}
+.textoflogo h2{
+    font-size: 1.65rem;
+    color: rgb(227, 224, 224);
+    font-weight: bold;
+}
+.form-section {
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.form-section h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.form-section input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.form-section button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #2563eb;
+}
+.forgot {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #3b82f6;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image-section {
+        height: 40vh;
+    }
+}

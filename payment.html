@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payments</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <div class="logo">
+        <img src="images/logo.png" alt="img"><p class="textlogo">didlogic</p>
+    </div>
+    <div class="account">
+        <span>My account</span>
+        <a href="#">Logout</a>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav class="nav">
+    <a href="#">BUY</a>
+    <a href="#">PURCHASED</a>
+    <a href="#">PAY</a>
+    <a href="#">SMS</a>
+    <a href="#">SIP</a>
+    <a href="#">HISTORY</a>
+    <a href="#">LNP</a>
+    <a href="#">SUPPORT</a>
+</nav>
+
+<!-- Main Container -->
+<div class="container">
+    <div class="card">
+
+        <h2>Payments</h2>
+
+        <!-- Sub tabs -->
+        <div class="sub-tabs">
+            <a href="#">Make a payment</a>
+            <a href="#">Automatic payments</a>
+            <a href="#">Transaction history</a>
+            <a href="#">Promo</a>
+        </div>
+
+        <!-- Payment Source -->
+        <div class="section">
+            <p class="label">Payment source</p>
+            <label class="radio">
+                <input type="radio">
+                Add a new credit or debit card
+            </label>
+
+            <!-- Credit Card Box -->
+            <div class="credit-box">
+                <div class="card-front">
+                    <input type="text" placeholder="Card number">
+                    <div class="row">
+                        <input type="text" placeholder="MM / YY">
+                        <input type="text" placeholder="CVC">
+                    </div>
+                    <input type="text" placeholder="Cardholder name">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <a href="#"><button class="primary">Add credit card</button></a>
+                <a href="#"><button class="secondary">Cancel</button></a>
+            </div>
+        </div>
+
+        <!-- PayPal -->
+        <div class="section">
+            <label class="radio">
+                <input type="radio">
+                <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" class="paypal">
+            </label>
+        </div>
+
+        <!-- Amount -->
+        <div class="section">
+            <p class="label">Payment amount</p>
+            <label class="radio">
+                <input type="radio">
+                $10.00 <span class="muted">(your last payment amount)</span>
+            </label>
+        </div>
+
+        <div class="buttonclass">
+            <a href="#"><button class="btn1">Make a payment</button></a>
+            <a href="#"><button class="btn2">Cancel</button></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
